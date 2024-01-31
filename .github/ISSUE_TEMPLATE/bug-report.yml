@@ -7,9 +7,7 @@ body:
     attributes:
       label: Upcoming End-of-Support Acknowledgement
       options:
-        - label: I understand that the upcoming end-of-support for AWS SDK for Java v1
-          was [announced](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-aws-sdk-for-java-v1-x-on-december-31-2025/)
-          and that migrate to AWS SDK for Java v2 is recommended.
+        - label: I understand that the upcoming end-of-support for AWS SDK for Java v1 was [announced](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-aws-sdk-for-java-v1-x-on-december-31-2025/) and that migrate to AWS SDK for Java v2 is recommended.
           required: true
 
   - type: textarea
