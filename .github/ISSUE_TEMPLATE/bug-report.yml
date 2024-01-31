@@ -5,10 +5,20 @@ labels: [bug, needs-triage]
 body:
   - type: checkboxes
     attributes:
-      label: Upcoming End-of-Support Acknowledgement
+      label: Upcoming End-of-Support
       options:
-        - label: I understand that the upcoming end-of-support for AWS SDK for Java v1 was [announced](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-aws-sdk-for-java-v1-x-on-december-31-2025/) and that migrate to AWS SDK for Java v2 is recommended.
+        - label: I acknowledge that the upcoming end-of-support for AWS SDK for Java v1 was [announced](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-aws-sdk-for-java-v1-x-on-december-31-2025/) and that migrate to AWS SDK for Java v2 is recommended.
           required: true
+
+  - type: checkboxes
+  id: cat-preferences
+  attributes:
+    label: What kinds of cats do you like?
+    description: You may select more than one.
+    options:
+      - label: Orange cat (required. Everyone likes orange cats.)
+        required: true
+      - label: **Black cat**
 
   - type: textarea
     id: description
